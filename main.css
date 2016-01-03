@@ -1,0 +1,41 @@
+body {
+  background-color: black; }
+
+.container {
+  background-color: white;
+  width: 600px;
+  border: 1px solid navy;
+  overflow: hidden;
+  height: 550px;
+  font-family: helvetica;
+  margin: 100px auto; 
+}
+
+h1 {
+  background-color: red;
+  color: white;
+  margin: 0 auto;
+  padding: 15px 20px;
+  font-weight: 350;
+  border-top: 1px solid navy; 
+}
+
+h1:hover {
+  background-color: navy;
+  cursor: pointer; 
+}
+
+section {
+  min-height: 50px;
+  height: 450px;
+  overflow: hidden;
+  transition: height 0.4s ease; 
+}
+section p {
+  padding: 0 30px;
+  color: gray; 
+}
+
+.hidden {
+  height: 50px; 
+}
